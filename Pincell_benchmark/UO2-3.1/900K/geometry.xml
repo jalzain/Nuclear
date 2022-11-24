@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<geometry>
+  <cell id="6" material="13" region="-16" universe="2" />
+  <cell id="7" material="void" region="16 -17" universe="2" />
+  <cell id="8" material="2" region="17 -18" universe="2" />
+  <cell id="9" material="1" region="17" universe="2" />
+  <cell fill="2" id="10" region="10 -11 12 -13 14 -15" universe="0" />
+  <surface boundary="reflective" coeffs="-0.63339" id="10" type="x-plane" />
+  <surface boundary="reflective" coeffs="0.63339" id="11" type="x-plane" />
+  <surface boundary="reflective" coeffs="-0.63339" id="12" type="y-plane" />
+  <surface boundary="reflective" coeffs="0.63339" id="13" type="y-plane" />
+  <surface boundary="reflective" coeffs="-10.0" id="14" type="z-plane" />
+  <surface boundary="reflective" coeffs="10.0" id="15" type="z-plane" />
+  <surface coeffs="0.0 0.0 0.39433" id="16" type="z-cylinder" />
+  <surface coeffs="0.0 0.0 0.40226" id="17" type="z-cylinder" />
+  <surface coeffs="0.0 0.0 0.45972" id="18" type="z-cylinder" />
+</geometry>

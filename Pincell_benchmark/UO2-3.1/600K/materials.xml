@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material id="1" name="H2O" temperature="600.0">
+    <density units="sum" />
+    <nuclide ao="0.0442326" name="H1" />
+    <nuclide ao="1.02133e-05" name="B10" />
+    <nuclide ao="4.11098e-05" name="B11" />
+    <nuclide ao="0.0221163" name="O16" />
+    <sab name="c_H_in_H2O" />
+  </material>
+  <material id="2" name="Zircaloy" temperature="600.0">
+    <density units="atom/b-cm" value="0.0421838" />
+    <nuclide ao="0.5145" name="Zr90" />
+    <nuclide ao="0.1122" name="Zr91" />
+    <nuclide ao="0.1715" name="Zr92" />
+    <nuclide ao="0.1738" name="Zr94" />
+    <nuclide ao="0.028" name="Zr96" />
+  </material>
+  <material depletable="true" id="6" temperature="600">
+    <density units="sum" />
+    <nuclide ao="0.0461297" name="O16" />
+    <nuclide ao="5.81576e-06" name="U234" />
+    <nuclide ao="0.000723867" name="U235" />
+    <nuclide ao="0.0223352" name="U238" />
+  </material>
+</materials>
